@@ -33,9 +33,9 @@ export function Offices({
     <ul role="list" {...props}>
       <li>
         <Office name="Singapore" invert={invert}>
-          111 NORTH BRIDGE ROAD #20-05
+          111 North Bridge Road #20-05
           <br />
-          PENINSULA PLAZA 179098
+          Peninsula Plaza 179098
         </Office>
       </li>
       {/* <li>
