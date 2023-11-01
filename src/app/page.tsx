@@ -73,7 +73,7 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We are steadfast in our conviction that technology is instrumental in addressing the world's most complex challenges. However, acknowledging that it can occasionally give rise to new hurdles, we acknowledge the inherent paradox. Thus, we find ourselves navigating the unique duality of our mission with unwavering professionalism and strategic innovation.
+          We are steadfast in our conviction that technology is instrumental in addressing the world&apos;s most complex challenges. However, acknowledging that it can occasionally give rise to new hurdles, we acknowledge the inherent paradox. Thus, we find ourselves navigating the unique duality of our mission with unwavering professionalism and strategic innovation.
         </p>
       </SectionIntro>
       {/* <Container className="mt-16">
