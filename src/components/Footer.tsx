@@ -9,7 +9,7 @@ const navigation = [
   {
     title: 'Work',
     links: [
-      { title: 'Kaoyazhan', href: '/work/kaoyazhan' },
+      { title: 'KaoYaZhan', href: '/work/kaoyazhan' },
       // { title: 'Unseal', href: '/work/unseal' },
       // { title: 'Phobia', href: '/work/phobia' },
       {
@@ -25,9 +25,9 @@ const navigation = [
   {
     title: 'Company',
     links: [
-      { title: 'About', href: '/about' },
+      // { title: 'About', href: '/about' },
       { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
+      // { title: 'Blog', href: '/blog' },
       { title: 'Contact us', href: '/contact' },
     ],
   },
