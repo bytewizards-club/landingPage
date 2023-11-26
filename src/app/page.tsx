@@ -69,11 +69,11 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Advancing Towards a Brighter Future with Technology"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We are steadfast in our conviction that technology is instrumental in addressing the world&apos;s most complex challenges. However, acknowledging that it can occasionally give rise to new hurdles, we acknowledge the inherent paradox. Thus, we find ourselves navigating the unique duality of our mission with unwavering professionalism and strategic innovation.
+        We firmly believe that technology is vital in addressing the world's most complex issues. Although it can sometimes introduce unforeseen complexities, we embrace this inherent paradox. Our team is committed to navigating this unique duality with steadfast professionalism and innovative strategies, ensuring that our technological advancements lead to positive, meaningful change.
         </p>
       </SectionIntro>
       {/* <Container className="mt-16">
@@ -128,8 +128,7 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        We excel in offering development and consulting expertise to shape and execute projects, ensuring your innovative ideas are realized with precision and effectiveness.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -144,25 +143,18 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
-            </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
-            </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
-            </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
-            </ListItem>
+          <ListItem title="Web Development">
+          Our expertise is in designing stunning, high-quality marketing pages that capture attention. The remainder of the website is expertly structured, integrating elegant placeholder content where necessary.
+        </ListItem>
+        <ListItem title="Application Development">
+          Our team consists of highly skilled developers, proficient in cutting-edge app frameworks, including Angular 1 and Google Web Toolkit, ensuring top-notch application functionality.
+        </ListItem>
+        <ListItem title="E-commerce">
+          We lead in innovative e-commerce development, offering bespoke solutions that include personalizing established Shopify templates with your unique brand identity.
+        </ListItem>
+        <ListItem title="Custom Content Management">
+          At our Studio, we value the need for a tailored and powerful CMS. We specialize in leveraging a comprehensive Joomla instance to manage and streamline all our client projects efficiently.
+        </ListItem>
           </List>
         </div>
       </Container>
@@ -186,7 +178,7 @@ export default async function Home() {
             Award-winning development studio, situated in Singapore.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            As an advanced development studio, we reside at the cutting edge nexus of AI and Web3 technologies. With so much happening, it’s a bustling crossroad indeed — our highly skilled team is well-versed in devising and launching groundbreaking innovations.
+          As an award-winning development studio based in Singapore, we position ourselves at the forefront of AI and Web3 technologies. Our vibrant setting is a hive of constant activity and innovation, where our expert team excels in creating and implementing revolutionary advancements.
           </p>
         </FadeIn>
       </Container>
@@ -199,9 +191,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        Our team consists of experienced engineers and algorithm developers who excel in delivering innovative solutions. We are committed to pushing the boundaries of technology to create impactful products and services.
       </Testimonial>
 
       <Services />
