@@ -10,6 +10,9 @@ const navigation = [
     title: 'Work',
     links: [
       { title: 'KaoYaZhan', href: '/work/kaoyazhan' },
+      { title: 'xSale', href: '/work/xSale' },
+      // { title: 'Doctor Copilot', href: '/work/doctor-copilot' },
+      // { title: 'AI Watch', href: '/work/ai-watch' },
       // { title: 'Unseal', href: '/work/unseal' },
       // { title: 'Phobia', href: '/work/phobia' },
       {
