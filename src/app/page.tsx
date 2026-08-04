@@ -12,16 +12,16 @@ function Thesis() {
   return (
     <SectionIntro
       eyebrow="The thesis"
-      title="Environments over prompts."
+      title="Software first, hardware next."
       className="mt-24 sm:mt-32 lg:mt-40"
     >
       <p>
-        Most of the industry is racing to build better agents. We think the
-        harder problem is the world those agents work in — what they can see,
-        use, and act on. Models keep getting swapped out. Environments are what
-        compound. So every product we ship is built environment-first: the
-        domain knowledge lives in the world the agent works in, not just its
-        prompt.
+        Natural language is becoming the interface for everything, and agents
+        are doing more and more of the work. That rebuild starts in software —
+        but it won&apos;t end there. The products we most want to build next
+        live in the physical world: consumer agent systems for the home, where
+        an agent doesn&apos;t just notify you — it understands what it sees and
+        handles what happens next.
       </p>
     </SectionIntro>
   )
@@ -64,10 +64,10 @@ function WhatWeBuild() {
               app-switching. Built on a research collaboration with Tsinghua
               University.
             </ListItem>
-            <ListItem title="Eigent — open source">
-              Our founder leads the architecture of Eigent, an open-source
-              desktop multi-agent workforce built on CAMEL-AI: agent runtime,
-              execution environment, and deployment.
+            <ListItem title="Next — agents for the home">
+              Where we&apos;re headed: consumer hardware, starting with home
+              security agent systems that can see, reason, and act for the
+              people they belong to. Early days, by design.
             </ListItem>
           </List>
         </div>
@@ -92,8 +92,8 @@ export default async function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             ByteWizards is an independent, founder-run AI studio in Singapore.
             The thesis: natural language becomes the interface, and agents do
-            the work. We build agent products end-to-end — and the worlds they
-            work in.
+            the work — software first, hardware next. We build agent products
+            end-to-end.
           </p>
         </FadeIn>
       </Container>
