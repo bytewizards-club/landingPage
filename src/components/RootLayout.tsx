@@ -152,8 +152,8 @@ function Navigation() {
       </NavigationRow> */}
 
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/process">Our Process</NavigationItem>
+        <NavigationItem href="/about">About</NavigationItem>
+        <NavigationItem href="/contact">Contact</NavigationItem>
       </NavigationRow>
     </nav>
   )

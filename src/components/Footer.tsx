@@ -7,30 +7,9 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
-    links: [
-      { title: 'KaoYaZhan', href: '/work/kaoyazhan' },
-      { title: 'xSale', href: '/work/xSale' },
-      // { title: 'Doctor Copilot', href: '/work/doctor-copilot' },
-      // { title: 'AI Watch', href: '/work/ai-watch' },
-      // { title: 'Unseal', href: '/work/unseal' },
-      // { title: 'Phobia', href: '/work/phobia' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
-    ],
-  },
-  {
     title: 'Company',
     links: [
-      // { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
-      // { title: 'Blog', href: '/blog' },
+      { title: 'About', href: '/about' },
       { title: 'Contact us', href: '/contact' },
     ],
   },
@@ -119,9 +98,7 @@ export function Footer() {
       <FadeIn>
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
           <Navigation />
-          <div className="flex lg:justify-end">
-            <NewsletterForm />
-          </div>
+
         </div>
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
