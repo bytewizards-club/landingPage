@@ -63,7 +63,8 @@ export default async function About() {
             downtime, and led frontend platform teams. Since then he has taken
             two agent products from zero to launch — xSale and NLUI — and works
             deep in multi-agent systems, agent runtimes, and LLM
-            infrastructure.
+            infrastructure, including contributing to Eigent, an open-source
+            desktop multi-agent workforce built on CAMEL-AI.
           </p>
           <p>
             The studio exists to test one thesis in production: natural
