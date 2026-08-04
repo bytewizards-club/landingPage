@@ -56,7 +56,15 @@ function WhatWeBuild() {
               A multi-agent system running cross-border influencer marketing
               end-to-end: AI-driven creator discovery and matching, automated
               outreach, and content generation on TikTok. Approved TikTok
-              Marketing API partner.
+              Marketing API partner.{' '}
+              <a
+                href="https://www.xsale.sale"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-neutral-950 underline decoration-neutral-300 underline-offset-4 transition hover:decoration-neutral-950"
+              >
+                xsale.sale&nbsp;&rarr;
+              </a>
             </ListItem>
             <ListItem title="NLUI — the interface layer">
               A mobile MCP host where users complete real-world tasks —

@@ -7,6 +7,10 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
+    title: 'Products',
+    links: [{ title: 'xSale', href: 'https://www.xsale.sale' }],
+  },
+  {
     title: 'Company',
     links: [
       { title: 'About', href: '/about' },
