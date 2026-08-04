@@ -27,8 +27,9 @@ function Values() {
           </GridListItem>
           <GridListItem title="Software first, hardware next" invert>
             Today&apos;s agents live in browsers and apps. The ones we want to
-            build next live in the home — starting with security systems that
-            can see, reason, and act.
+            build next live in the home — starting with systems that help
+            families look after aging parents: seeing, reasoning, and acting
+            when it matters.
           </GridListItem>
           <GridListItem title="Agents in the loop" invert>
             We run the studio the way we build products: agents do the work

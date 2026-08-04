@@ -19,9 +19,9 @@ function Thesis() {
         Natural language is becoming the interface for everything, and agents
         are doing more and more of the work. That rebuild starts in software —
         but it won&apos;t end there. The products we most want to build next
-        live in the physical world: consumer agent systems for the home, where
-        an agent doesn&apos;t just notify you — it understands what it sees and
-        handles what happens next.
+        live in the physical world: home agent systems that help families look
+        after the people they love, where an agent doesn&apos;t just send an
+        alert — it understands what it sees and handles what happens next.
       </p>
     </SectionIntro>
   )
@@ -65,9 +65,10 @@ function WhatWeBuild() {
               University.
             </ListItem>
             <ListItem title="Next — agents for the home">
-              Where we&apos;re headed: consumer hardware, starting with home
-              security agent systems that can see, reason, and act for the
-              people they belong to. Early days, by design.
+              Where we&apos;re headed: consumer hardware for the home, starting
+              with elder care — agents that notice a fall, a missed routine, or
+              an unusually quiet day, understand what they&apos;re seeing, and
+              act on it. Early days, by design.
             </ListItem>
           </List>
         </div>
