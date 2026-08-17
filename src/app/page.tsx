@@ -97,12 +97,13 @@ function Consulting() {
       >
         <p>
           Alongside our own products, we take on a small number of consulting
-          engagements — working forward-deployed with your team, in your
-          environment, to get agents and LLM systems doing real work.
+          engagements and tightly scoped development projects — working
+          hands-on with your team, in your environment, to get AI doing real
+          work.
         </p>
       </SectionIntro>
       <Container className="mt-16">
-        <GridList>
+        <GridList className="lg:!grid-cols-2">
           <GridListItem title="AI adoption, end to end">
             From finding the workflows worth automating to shipping them:
             use-case selection, build-vs-buy, and a clear path to production.
@@ -115,6 +116,11 @@ function Consulting() {
           <GridListItem title="Forward-deployed, by design">
             We work inside your environment and your tools — and leave your
             team able to run and evolve what we build together.
+          </GridListItem>
+          <GridListItem title="Small projects, taken whole">
+            An MVP, an internal tool, an agent feature — scoped builds
+            delivered end-to-end, from first call to production, by the same
+            person you talked to.
           </GridListItem>
         </GridList>
         <div className="mt-12 flex">
