@@ -28,6 +28,17 @@ function WorkInquiries() {
         >
           Email Business@bytewizards.ai
         </Button>
+        <p className="mt-6 text-sm text-neutral-600">
+          Prefer to talk?{' '}
+          <a
+            href="https://cal.com/chentong/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-neutral-950 underline decoration-neutral-300 underline-offset-4 transition hover:decoration-neutral-950"
+          >
+            Book a call directly&nbsp;&rarr;
+          </a>
+        </p>
       </div>
     </FadeIn>
   )

@@ -118,7 +118,11 @@ function Consulting() {
           </GridListItem>
         </GridList>
         <div className="mt-12 flex">
-          <Button href="mailto:Business@bytewizards.ai?subject=Intro%20call">
+          <Button
+            href="https://cal.com/chentong/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book an intro call
           </Button>
         </div>
