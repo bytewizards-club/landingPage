@@ -17,9 +17,10 @@ function WorkInquiries() {
           Work inquiries
         </h2>
         <p className="mt-6 text-base text-neutral-600">
-          No form to fill in — your email lands directly in the founder&apos;s
-          inbox. A few lines about what you&apos;re building and where agents
-          fit is plenty.
+          Product partnerships, AI consulting, or a forward-deployed
+          engagement to get agents into production — no form to fill in, your
+          email lands directly in the founder&apos;s inbox. A few lines about
+          what you&apos;re building and where AI fits is plenty.
         </p>
         <Button
           href="mailto:Business@bytewizards.ai?subject=Work%20inquiry"

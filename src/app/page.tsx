@@ -1,6 +1,8 @@
 import { type Metadata } from 'next'
 
+import { Button } from '@/components/Button'
 import { ContactSection } from '@/components/ContactSection'
+import { GridList, GridListItem } from '@/components/GridList'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
@@ -85,6 +87,46 @@ function WhatWeBuild() {
   )
 }
 
+function Consulting() {
+  return (
+    <>
+      <SectionIntro
+        eyebrow="Consulting"
+        title="Hands-on help getting AI into production."
+        className="mt-24 sm:mt-32 lg:mt-40"
+      >
+        <p>
+          Alongside our own products, we take on a small number of consulting
+          engagements — working forward-deployed with your team, in your
+          environment, to get agents and LLM systems doing real work.
+        </p>
+      </SectionIntro>
+      <Container className="mt-16">
+        <GridList>
+          <GridListItem title="AI adoption, end to end">
+            From finding the workflows worth automating to shipping them:
+            use-case selection, build-vs-buy, and a clear path to production.
+          </GridListItem>
+          <GridListItem title="Agent systems that hold up">
+            Architecture and reliability for agent products: runtimes,
+            multi-agent coordination, MCP tool integration, evals, and LLM
+            infrastructure.
+          </GridListItem>
+          <GridListItem title="Forward-deployed, by design">
+            We work inside your environment and your tools — and leave your
+            team able to run and evolve what we build together.
+          </GridListItem>
+        </GridList>
+        <div className="mt-12 flex">
+          <Button href="mailto:Business@bytewizards.ai?subject=Intro%20call">
+            Book an intro call
+          </Button>
+        </div>
+      </Container>
+    </>
+  )
+}
+
 export const metadata: Metadata = {
   description:
     'ByteWizards is an independent, founder-run AI studio in Singapore. Natural language becomes the interface, and agents do the work.',
@@ -110,6 +152,8 @@ export default async function Home() {
       <Thesis />
 
       <WhatWeBuild />
+
+      <Consulting />
 
       <ContactSection />
     </>
