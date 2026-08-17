@@ -123,7 +123,7 @@ function Consulting() {
             person you talked to.
           </GridListItem>
         </GridList>
-        <div className="mt-12 flex">
+        <div className="mt-12">
           <Button
             href="https://cal.com/chentong/30min"
             target="_blank"
@@ -131,6 +131,11 @@ function Consulting() {
           >
             Book an intro call
           </Button>
+          <p className="mt-4 max-w-xl text-sm text-neutral-600">
+            Bookings require a short intro — who you are and what you&apos;d
+            like to cover. Requests without context are declined, so a couple
+            of clear sentences is all it takes.
+          </p>
         </div>
       </Container>
     </>

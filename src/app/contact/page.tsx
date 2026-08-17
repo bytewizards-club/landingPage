@@ -36,7 +36,9 @@ function WorkInquiries() {
             className="font-semibold text-neutral-950 underline decoration-neutral-300 underline-offset-4 transition hover:decoration-neutral-950"
           >
             Book a call directly&nbsp;&rarr;
-          </a>
+          </a>{' '}
+          Include a short intro and what you&apos;d like to cover — requests
+          without context are declined.
         </p>
       </div>
     </FadeIn>
