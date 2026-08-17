@@ -96,11 +96,11 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            A small AI studio with one big thesis.
+            A small AI studio in Singapore.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            ByteWizards is an independent, founder-run AI studio in Singapore.
-            The thesis: natural language becomes the interface, and agents do
+            ByteWizards is independent and founder-run. We believe natural
+            language is becoming the interface, and agents are doing more of
             the work — software first, hardware next. We build agent products
             end-to-end.
           </p>
